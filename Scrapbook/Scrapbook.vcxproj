@@ -84,17 +84,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="src\Camera.h" />
+    <ClInclude Include="src\Scrapbook.h" />
     <ClInclude Include="src\Shader.h" />
     <ClInclude Include="src\stb_image.h" />
+    <ClInclude Include="src\Texture.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\Scrapbook.cpp" />
     <ClCompile Include="src\Shader.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\shader\shader.frag" />
-    <None Include="res\shader\shader.vert" />
+    <None Include="res\shader\diffuse.frag" />
+    <None Include="res\shader\diffuse.vert" />
+    <None Include="res\shader\color.frag" />
+    <None Include="res\shader\color.vert" />
+    <None Include="res\shader\material.frag" />
+    <None Include="res\shader\material.vert" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="external\glfw\GLFW.vcxproj">
