@@ -102,6 +102,8 @@
     <None Include="res\shader\color.vert" />
     <None Include="res\shader\material.frag" />
     <None Include="res\shader\material.vert" />
+    <None Include="res\shader\material_map.frag" />
+    <None Include="res\shader\material_map.vert" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="external\glfw\GLFW.vcxproj">
